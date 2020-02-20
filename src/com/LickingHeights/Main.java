@@ -1,5 +1,7 @@
 package com.LickingHeights;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -28,9 +30,23 @@ double f_i;
 double f_c;
 int L;
 
+Scanner kriepto = new Scanner(System.in);
+//todo initialize the scanner to take input and commit
+//Ask for rStar number store in the rStar variable and commit
+// Ask for rStar number store in the rStar variable and commit
+// Ask for f_p fraction store in the f_p variable and commit
+//Ask for numberOfExponents store in the nunmberOfExponents variable and commit
+//Ask for f_l store in the f_l variable and commit
+// Ask for f_i store in the f_i variable and commit
+// Ask for f_c store in the f_c variable and commit
+// Ask for L store in the L variable and commit
+
+//todo complete each one of the variables storing them correctly and commiting each time
+
 N=rStar * f_p * numberOfExoplanets * f_l *f_i * f_c * L;
 System.out.println("The number of intelligent speciesthat are out there/n" +
         "That can can cummunicate with us");
+System.out.println();
 
     }
 

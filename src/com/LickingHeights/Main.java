@@ -42,12 +42,26 @@ Scanner input = new Scanner(System.in);
 // Ask for L store in the L variable and commit
 
 //todo complete each one of the variables storing them correctly and commiting each time
+        System.out.println("Give me a value of how many stars are formed per year");
+        rStar = input.nextInt();
+        System.out.println("Give me a fraction of planets that will have stars");
+        f_p = input.nextInt();
+        System.out.println("Give me a number of planets capable of developing life");
+        numberOfExoplanets = input.nextInt();
+        System.out.println("Give me percentage of those planets that will develope life");
+        f_l = input.nextInt();
+        System.out.println("Give me a percentage of those planets that will have intelligent life");
+        f_i = input.nextInt();
+        System.out.println("Give a percentage of those life that will able to communicate ");
+        f_c = input.nextInt();
+        System.out.println("Give me a number of years it will last for");
+        L = input.nextInt();
+
+
 N = rStar *f_p * numberOfExoplanets * f_l *f_i * f_c * L;
 
-System.out.println("The number of intelligent speciesthat are out there/n" +
-        "That can can cummunicate with us");
-System.out.println("Give me a value of how many stars are formed per year");
-rStar = input.nextLine();
+
+
 
 
 
